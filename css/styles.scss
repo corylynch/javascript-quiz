@@ -1,0 +1,313 @@
+body, p, h1, h2, h3, a, li, span, label {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: url("http://image2.urlforimages.com/TipaImages/images/hearts-bg2.jpg") center top no-repeat;
+  background-size: cover;
+}
+
+.top {
+  padding: 10px;
+  overflow: auto;
+  .logo img {
+    display: block;
+    margin-top: 7px;
+    width: 200px;
+  }
+  .slogan p {
+    text-align: right;
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+}
+
+.main-banner {
+  padding: 25px 0;
+  overflow: auto;
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    &.sub-header {
+      font-size: 2em;
+      margin: 0;
+      padding: 0;
+    }
+    &.header {
+      margin-top: 0;
+      font-weight: 800;
+      font-size: 3em;
+    }
+  }
+}
+
+.start {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #e8e8e8;
+  margin-bottom: 20px;
+  overflow: auto;
+  .start-img img {
+    margin-bottom: 20px;
+  }
+}
+
+.start-btn {
+  text-align: center;
+  padding: 20px;
+  background-color: #33B539;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.35em;
+  overflow: auto;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.quiz {
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 20px 0 100px;
+}
+
+.question {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: none;
+  margin-bottom: 20px;
+  &.active {
+    display: block;
+  }
+  p.q {
+    font-size: 2em;
+    font-weight: 800;
+    color: #fff;
+    background-color: #94546c;
+    line-height: 30px;
+    margin-bottom: 0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .q-img {
+    margin-bottom: 30px;
+  }
+}
+
+.answers {
+  overflow: auto;
+  label {
+    &.btn {
+      padding: 20px;
+      font-family: 'Lato', sans-serif;
+      font-size: 1.35em;
+      border-radius: 0;
+      font-weight: 800;
+      background-color: #ffffff;
+      border: 2px solid #e8e8e8;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+      p {
+        margin: 0;
+        position: absolute;
+        top: 10px;
+        border: 1px solid #e8e8e8;
+        border-radius: 3px;
+        height: 30px;
+        width: 30px;
+        font-size: 1.5em;
+        right: 20px;
+        background-color: #ffffff;
+        color: #1e88e5;
+        i {
+          display: none;
+        }
+      }
+      &.active {
+        background-color: #756067;
+        color: #ffffff;
+        outline: none;
+        p i {
+          display: block;
+        }
+      }
+      &:hover {
+        background-color: #B897A2;
+        color: #ffffff;
+      }
+    }
+    &.image {
+      height: 150px;
+      padding: 0;
+      &.uprunning1 {
+        background: url("http://image2.urlforimages.com/TipaImages/images/valentines/uprunning1.jpg") center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.relax1 {
+        background: url("http://image2.urlforimages.com/TipaImages/images/valentines/relax1.jpg") center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.both1 {
+        background: url("http://image2.urlforimages.com/TipaImages/images/valentines/both1.jpg") center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.relax2 {
+        background: url("http://image2.urlforimages.com/TipaImages/images/valentines/relax2.jpg") center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.uprunning2 {
+        background: url("http://image2.urlforimages.com/TipaImages/images/valentines/uprunning2.jpg") center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.both2 {
+        background: url("http://image2.urlforimages.com/TipaImages/images/valentines/both2.jpg") center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.beach {
+        background: url("http://image2.urlforimages.com/TipaImages/images/valentines/beach.jpg") center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.mountains {
+        background: url("http://image2.urlforimages.com/TipaImages/images/valentines/mountains.jpg") center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.city {
+        background: url("http://image2.urlforimages.com/TipaImages/images/valentines/city.jpg") center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.wos {
+        background: url("http://image2.urlforimages.com/TipaImages/images/valentines/wos.jpg") center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+    }
+  }
+  .next, .done {
+    text-align: center;
+    padding: 20px;
+    background-color: #33B539;
+    border: 2px solid #e8e8e8;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.35em;
+    overflow: auto;
+    font-weight: 800;
+  }
+  .next.right, .done.right {
+    float: right;
+  }
+  .next.image-bottom, .done.image-bottom {
+    width: 100%;
+  }
+  .next.image, .done.image {
+    padding: 53px 20px;
+    font-size: 2em;
+  }
+}
+
+.share {
+  display: none;
+  div {
+    padding: 10px;
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    input {
+      border-radius: 3px;
+      width: 100%;
+      display: block;
+      padding: 3px;
+      border: 2px solid #ddd;
+    }
+  }
+  .s-button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+    &.facebook {
+      color: #fff;
+      background-color: #4C67A1;
+      &:hover {
+        background-color: #405D9B;
+      }
+    }
+    &.twitter {
+      color: #fff;
+      background-color: #1b95e0;
+    }
+    &.email {
+      background-color: #e8e8e8;
+      color: #666666;
+    }
+    &.copy {
+      background-color: #e8e8e8;
+      color: #666666;
+      border: none;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .top {
+    .slogan {
+      display: none;
+    }
+    .logo img {
+      margin: 20px auto;
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .question {
+    padding: 0;
+    p.q {
+      font-size: 1.5em;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+    .next.image {
+      padding: 20px;
+      font-size: 1.35em;
+    }
+    .answers {
+      .next, .done {
+        border: 2px solid #33B539;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+      }
+    }
+    .a-img {
+      display: none;
+    }
+  }
+}
+
+/* Custom, iPhone Retina */
+
+/*# sourceMappingURL=styles.css.map */
